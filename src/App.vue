@@ -1,18 +1,30 @@
 <template>
   <div id="app">
-    <Layout/>
+    <Header/>
+    <Nav/>
+    <div class="module p-2">
+      <router-view/>
+    </div>
+    <Footer/>
+
   </div>
 </template>
-
 <script>
-import Layout from './components/layout';
+import Header from './components/header';
+import Nav from './components/nav';
+import Footer from './components/footer';
 export default {
-  name: 'App',
-  components: {
-    Layout,
-  }
-}
+  components:{
+    Header,
+    Nav,
+    Footer
+  },
+};
 </script>
 
-<style>
+<style scoped>
+  .module {
+    background: rgb(216, 228, 230);
+    height: 63.7vh;
+  }
 </style>

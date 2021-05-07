@@ -1,6 +1,6 @@
 <template>
-  <header class="header bg-info p-4 text-light text-center">
-    <h4 class="">Contador - App</h4>
+  <header class="header bg-info p-2 text-light text-center">
+    <h1 class="">Contador - App</h1>
   </header>
 </template>
 

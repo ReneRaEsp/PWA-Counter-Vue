@@ -25,6 +25,6 @@ export default {
 <style scoped>
   .module {
     background: rgb(216, 228, 230);
-    height: 63.7vh;
+    height: 64.2vh;
   }
 </style>

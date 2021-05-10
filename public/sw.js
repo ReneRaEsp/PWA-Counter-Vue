@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const CACHE_NAME = "v1_cache_contador_app_vue";
 const URLS_TO_CACHE = [
     "./",
